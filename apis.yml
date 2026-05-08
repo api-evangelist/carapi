@@ -26,6 +26,8 @@ apis:
     properties:
       - url: https://carapi.app/docs/
         type: Documentation
+      - type: OpenAPI
+        url: openapi/carapi-openapi.yml
     description: >-
       CarAPI provides detailed vehicle information including specifications,
       pricing, and availability for a wide range of cars.
