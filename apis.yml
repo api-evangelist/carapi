@@ -38,7 +38,7 @@ common:
     url: https://carapi.app/docs/
   - type: Authentication
     url: https://carapi.app/docs/#authentication
-  - type: Rate Limits
+  - type: RateLimits
     url: https://carapi.app/docs/rate_limits/
   - type: Pricing
     url: https://carapi.app/pricing
