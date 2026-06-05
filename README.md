@@ -1,48 +1,55 @@
 # CarAPI (carapi)
-CarAPI is an innovative platform that allows users to access detailed information about a wide range of vehicles. This powerful tool provides users with comprehensive data on car specifications, pricing, availability, and more. With CarAPI, users can easily search for specific makes and models, compare different vehicles, and make informed decisions when purchasing a new car. The platform also offers real-time updates on market trends and industry news, making it a valuable resource for car enthusiasts, buyers, and sellers alike. With its user-friendly interface and vast database of vehicle information, CarAPI is revolutionizing the way people interact with the automotive industry.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/carapi/refs/heads/main/apis.yml)
+CarAPI is an innovative platform that provides detailed information about a wide range of vehicles including car specifications, pricing, availability, and more. With CarAPI, users can search for specific makes and models, compare different vehicles, and make informed decisions when purchasing a new car.
+
+**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/carapi/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/carapi/refs/heads/main/apis.yml)
 
 ## Scope
 
-- **Type:** Index 
-- **Position:** Consumer 
-- **Access:** 3rd-Party 
+- **Type:** Index
+- **Position:** Consumer
+- **Access:** 3rd-Party
 
-## Tags:
+## Tags
 
- - Automobiles
+- Automobiles
+- Vehicles
 
 ## Timestamps
 
-- **Created:** 2025-01-07 
-- **Modified:** 2025-02-27 
+- **Created:** 2025-01-07
+- **Modified:** 2026-05-19
 
 ## APIs
 
 ### CarAPI
- 
 
-**Human URL:** [ https://carapi.app/docs/]( https://carapi.app/docs/)
+CarAPI provides detailed vehicle information including specifications, pricing, and availability for a wide range of cars.
 
+- **Human URL:** [https://carapi.app/docs/](https://carapi.app/docs/)
 
-#### Tags:
+#### Tags
 
- - API
+- Automobiles
+- Vehicles
 
 #### Properties
 
-- [Documentation]( https://carapi.app/docs/)
+- [Documentation](https://carapi.app/docs/)
+- [OpenAPI](openapi/carapi-openapi.yml) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
+- [Postman Collection](collections/carapi.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
+- [Open Collection](collections/carapi.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
 
 ## Common Properties
 
+- [GitHub Organization](https://github.com/car-api-team)
+- [Website](https://carapi.app/)
+- [Documentation](https://carapi.app/docs/)
 - [Authentication](https://carapi.app/docs/#authentication)
-- [Pagination](https://carapi.app/docs/#pagination)
-- [RateLimits](https://carapi.app/docs/rate_limits/)
+- [Rate Limits](https://carapi.app/docs/rate_limits/)
+- [Pricing](https://carapi.app/pricing)
 
 ## Maintainers
 
 **FN:** Kin Lane
-
-**Email:** info@apievangelist.com
-
+**Email:** kin@apievangelist.com

@@ -10,27 +10,25 @@ access: 3rd-Party
 created: '2025-01-07'
 modified: '2026-05-19'
 position: Consumer
-description: CarAPI is an innovative platform that provides detailed information about a wide range of vehicles including
-  car specifications, pricing, availability, and more. With CarAPI, users can search for specific makes and models, compare
+description: >-
+  CarAPI is an innovative platform that provides detailed information about a wide range of vehicles including car
+  specifications, pricing, availability, and more. With CarAPI, users can search for specific makes and models, compare
   different vehicles, and make informed decisions when purchasing a new car.
 apis:
   - aid: carapi:carapi
     name: CarAPI
     tags:
-    - Automobiles
-    - Vehicles
+      - Automobiles
+      - Vehicles
     humanURL: https://carapi.app/docs/
     properties:
-    - url: https://carapi.app/docs/
-      type: Documentation
-    - type: OpenAPI
-      url: openapi/carapi-openapi.yml
-    - type: NaftikoCapability
-      url: capabilities/carapi-authentication.yaml
-    - type: NaftikoCapability
-      url: capabilities/carapi-vehicles.yaml
-    description: CarAPI provides detailed vehicle information including specifications, pricing, and availability for a wide
-      range of cars.
+      - url: https://carapi.app/docs/
+        type: Documentation
+      - type: OpenAPI
+        url: openapi/carapi-openapi.yml
+    description: >-
+      CarAPI provides detailed vehicle information including specifications, pricing, and availability for a wide range
+      of cars.
 common:
   - type: GitHubOrganization
     url: https://github.com/car-api-team
