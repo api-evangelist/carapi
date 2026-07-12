@@ -30,6 +30,10 @@ apis:
       CarAPI provides detailed vehicle information including specifications, pricing, and availability for a wide range
       of cars.
 common:
+  - type: DomainSecurity
+    url: security/carapi-domain-security.yml
+  - type: Authentication
+    url: authentication/carapi-authentication.yml
   - type: GitHubOrganization
     url: https://github.com/car-api-team
   - type: Website
