@@ -30,6 +30,8 @@ apis:
       CarAPI provides detailed vehicle information including specifications, pricing, and availability for a wide range
       of cars.
 common:
+  - type: AgenticAccess
+    url: agentic-access/carapi-agentic-access.yml
   - type: DomainSecurity
     url: security/carapi-domain-security.yml
   - type: Authentication
