@@ -5,7 +5,20 @@ tags:
   - Automobiles
   - Vehicles
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: self-serve
+  trial: false
+  try_now: true
+  public: false
+  label: Freemium · Self-serve signup
+  confidence: high
+  source:
+  - plans
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/carapi.png
 access: 3rd-Party
 created: '2025-01-07'
 modified: '2026-05-19'
@@ -15,20 +28,28 @@ description: >-
   specifications, pricing, availability, and more. With CarAPI, users can search for specific makes and models, compare
   different vehicles, and make informed decisions when purchasing a new car.
 apis:
-  - aid: carapi:carapi
-    name: CarAPI
-    tags:
-      - Automobiles
-      - Vehicles
-    humanURL: https://carapi.app/docs/
-    properties:
-      - url: https://carapi.app/docs/
-        type: Documentation
-      - type: OpenAPI
-        url: openapi/carapi-openapi.yml
-    description: >-
-      CarAPI provides detailed vehicle information including specifications, pricing, and availability for a wide range
-      of cars.
+- aid: carapi:carapi-authentication-api
+  name: CarAPI Authentication API
+  description: Endpoints for obtaining a JWT token for API access.
+  humanURL: https://carapi.app/docs/
+  tags:
+  - Authentication
+  properties:
+  - type: OpenAPI
+    url: openapi/carapi-authentication-api-openapi.yml
+  - type: Documentation
+    url: https://carapi.app/docs/
+- aid: carapi:carapi-vehicles-api
+  name: CarAPI Vehicles API
+  description: Operations for retrieving vehicle models, trims, and attributes.
+  humanURL: https://carapi.app/docs/
+  tags:
+  - Vehicles
+  properties:
+  - type: OpenAPI
+    url: openapi/carapi-vehicles-api-openapi.yml
+  - type: Documentation
+    url: https://carapi.app/docs/
 common:
   - type: AgenticAccess
     url: agentic-access/carapi-agentic-access.yml
