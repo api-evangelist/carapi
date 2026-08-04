@@ -1,0 +1,16 @@
+{
+  "provider": "carapi",
+  "sources": [
+    "carapi-authentication-api-openapi.yml",
+    "carapi-vehicles-api-openapi.yml"
+  ],
+  "outputs": [
+    "carapi-authentication-api-openapi.yml",
+    "carapi-vehicles-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
